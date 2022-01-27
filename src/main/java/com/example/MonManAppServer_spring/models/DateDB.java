@@ -1,5 +1,7 @@
 package com.example.MonManAppServer_spring.models;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

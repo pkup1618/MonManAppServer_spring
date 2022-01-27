@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 import java.sql.Date;
 import java.util.List;
 
-@Repository
 public interface PurchaseRepository extends JpaRepository<PurchaseDB, Long> {
 
     @Query("SELECT p FROM PurchaseDB p WHERE p.day = :day")

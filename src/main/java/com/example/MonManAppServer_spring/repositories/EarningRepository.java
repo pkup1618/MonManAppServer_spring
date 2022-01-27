@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 import java.sql.Date;
 import java.util.List;
 
-@Repository
 public interface EarningRepository extends JpaRepository<EarningDB, Long> {
 
     @Query("SELECT e FROM EarningDB e WHERE e.day = :day")
